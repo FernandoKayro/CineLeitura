@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Informa ao navegador como renderizar o conteúdo da página -->
+    <link rel="stylesheet" href="style.css">  <!-- Importa o css da pagina -->
+    <title>Cine Leitura</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cine Leitura</h1> 
+    </header>
+    <main>
+        <section>
+            <input type="text" id="campo-pesquisa" placeholder="Pesquise pelo livro desejado" autofocus onkeypress="if(event.keyCode==13){pesquisar()} ">  <!-- Campo de texto com auto foco e chama a função pesquisar quando precionado enter -->
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Fernando Kayro durante a Imersão Dev da Alura, com o apoio do Google Gemini.
+            <br>Todos os direitos autorais são reservados aos seus respectivos donos.
+            <br>Este projeto tem fins exclusivamente educacionais.
+        </p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
