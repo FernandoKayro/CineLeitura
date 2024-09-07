@@ -1,4 +1,3 @@
-Markdown
 # Cine Leitura 
 
 **Descrição:**
@@ -15,7 +14,7 @@ Cine Leitura é uma aplicação web que permite realizar buscas por livros de fo
 2. Navegue até o diretório do projeto
 3. Abra o arquivo index.html Você pode abrir o arquivo index.html diretamente em seu navegador para visualizar o projeto.
 
-Este projeto tabem esta disponivel no versel acessando pelo link:
+Este projeto tabem esta disponivel no versel acessando pelo link: https://cine-leitura.vercel.app/
 
 **Recursos:**
 
